@@ -301,3 +301,28 @@ db.entrar_em_cartaz.insertMany([
     "dia": '07/11/2021'
 }
 ])
+
+//povoando comprar_ingresso
+db.comprar_ingresso.insertMany([
+{   "cliente": 14557863669,
+        "ingresso": 'K12',
+        "cinema": 4
+},
+{   "cliente": 14557874569,
+    "ingresso": 'B04',
+    "cinema": 3
+},
+{   "cliente": 17849863669,
+    "ingresso": 'L10',
+    "cinema": 1
+},
+{   "cliente": 17849863669,
+    "ingresso": 'L11',
+    "cinema": 1
+},
+{   "cliente": 87456863669,
+    "ingresso": 'C16',
+    "cinema": 5
+}
+
+    ])

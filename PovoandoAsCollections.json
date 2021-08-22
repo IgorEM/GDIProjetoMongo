@@ -267,3 +267,37 @@ db.supervisiona.insertMany([
     "supervisionado": 47566867456
 }
         ])
+
+//povoando entrar_em_cartaz
+db.entrar_em_cartaz.insertMany([
+{   "filme": 1,
+        "sessao": 1,
+        "cinema": 2,
+        "dia": '15/07/2021'
+},
+{   "filme": 1,
+    "sessao": 2,
+    "cinema": 1,
+    "dia": '26/07/2021'
+},
+{   "filme": 1,
+    "sessao": 2,
+    "cinema": 2,
+    "dia": '29/08/2021'
+},
+{   "filme": 2,
+    "sessao": 3,
+    "cinema": 5,
+    "dia": '30/09/2021'
+},
+{   "filme": 5,
+    "sessao": 4,
+    "cinema": 3,
+    "dia": '02/10/2021'
+},
+{   "filme": 4,
+    "sessao": 5,
+    "cinema": 3,
+    "dia": '07/11/2021'
+}
+])

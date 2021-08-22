@@ -196,7 +196,7 @@ db.funcionario.insertMany([
 {   "cpf_p":82346867456,
     "salario": 1045,
     "carteira_trabalho": 29957878000100         
-},
+}
 
    
         ])

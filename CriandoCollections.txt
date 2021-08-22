@@ -1,0 +1,25 @@
+ Instalar o mongo, baixar o robot 3t se quiser trabalhar com uma interface grafica
+ ou digitar os seguintes comandos no cmd em ordem:
+
+ Abrindo o CMD digitando em ordem: 
+ mongo                                  - (para entrar no interpretador do mongo),
+ use SistemaDeVendaDeIngressos          - Para usar esse banco de dados SistemaDeVendaDeIngressos,
+ db.createCollection('pessoa')          - cria a collection pessoa no banco de dados SistemaDeVendaDeIngressos,
+ db.createCollection('cinema')          
+ db.createCollection('ingresso')
+ db.createCollection('filme')
+ db.createCollection('sala')
+ db.createCollection('cliente')
+ db.createCollection('funcionario')
+ db.createCollection('sala3d')
+ db.createCollection('sala_imax')
+ db.createCollection('sessao')
+ db.createCollection('pertence')
+ db.createCollection('supervisiona')
+ db.createCollection('entrar_em_cartaz')
+ db.createCollection('comprar_ingresso')
+ db.createCollection('endereco')
+ db.createCollection('telefone')
+ db.createCollection('alocar')
+ db.createCollection('possui_ingresso')
+ db.createCollection('historico_filme')

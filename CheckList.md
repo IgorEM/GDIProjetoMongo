@@ -23,3 +23,11 @@
 #### db.pessoa.count()
 //mostra a quantidade de pessoas cadastradas do nosso banco de dados
 
+
+### 19.PRETTY
+
+![image](https://user-images.githubusercontent.com/50914198/130370405-be4e10b6-3694-42db-b153-c77bb0862029.png)
+
+#### db.endereco.find({estado:"Pernambuco"} ).pretty()
+//printa de forma formatada (pretty,bonita) os documentos da collection endereco em que o estado seja igua a "Pernambuco"
+

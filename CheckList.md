@@ -24,7 +24,12 @@
 ![image](https://user-images.githubusercontent.com/50914198/130370156-c84b9554-33d7-47c3-8060-cda2a471f2e4.png)
 
 #### db.pessoa.count()
-//mostra a quantidade de pessoas cadastradas do nosso banco de dados
+//mostra a quantidade de pessoas cadastradas do nosso banco de dados <br /> <br />
+
+![image](https://user-images.githubusercontent.com/50914198/130370743-8bea66a2-e7be-4180-8527-1462eca44835.png)
+
+#### db.filme.find({$or: [{classificação_indicativa:"L"}, {classificação_indicativa:"12"}]} ).count()
+//mostra a quantidade de filmes em que a classificação indicativa é "L" ou "12" (repare no operador *$or ) 
 
 
 ### 19.PRETTY

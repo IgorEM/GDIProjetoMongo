@@ -403,24 +403,24 @@ db.alocar.insertMany([
     //povoamento telefone 
     db.telefone.insertMany([
         {   
-            "cpf_pessoa" : '14557863669',
-            "telefone" :  '34274299',
+            "cpf_pessoa" : 14557863669,
+            "telefone" :  34274299,
         },
         {
-            "cpf_pessoa" : '14557863669',
-            "telefone" :  '88997734',
+            "cpf_pessoa" : 14557863669,
+            "telefone" :  88997734,
         },
         {
-            "cpf_pessoa" : '47566867456',
-            "telefone" :  '76655439',
+            "cpf_pessoa" : 47566867456,
+            "telefone" :  76655439,
         },
         {
-            "cpf_pessoa" : '14557863669',
-            "telefone" :  '99766658',
+            "cpf_pessoa" : 14557863669,
+            "telefone" :  99766658,
         },
         {
-            "cpf_pessoa" : '56986867456',
-            "telefone" :  '97568990',
+            "cpf_pessoa" : 56986867456,
+            "telefone" :  97568990,
         }
             ])
     //povoamento supervisor 

@@ -22,6 +22,14 @@
 ![image](https://user-images.githubusercontent.com/17653999/130370555-04eb0dfc-e2c0-41fa-9288-698ab1fb4fb0.png)
 ### db.alocar.aggegate()
 // O Aggregate processa as operações e retorna os dados computados.
+
+# ------------------------------------------------------------------------
+### 6. PROJECT
+
+![image](https://user-images.githubusercontent.com/50914198/130372312-08bb8b55-0e76-4fe8-a23b-8978c7ade309.png)
+### db.funcionario.aggregate([     {$project: {carteira_trabalho: 1, salario: 1, _id: 0}}])
+// O aggregate usando apenas 1 estagio de pipeline, o Project, projetando apenas a carteira de trabalho e o salario, excluindo o ObjectId
+
 # ------------------------------------------------------------------------
 ### 10.COUNT
 

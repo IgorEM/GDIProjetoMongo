@@ -208,3 +208,31 @@ db.sala_imax.insertMany([
         "tipo_cadeira":  'Aquela que treme'          
     }
 ])
+
+//povoando sessao
+db.sessao.insertMany([
+{   "cod_sessao": 1,
+    "filme": 1,
+    "sala":  2         
+},
+{   "cod_sessao": 1,
+    "filme": 2,
+    "sala":  1         
+},
+{   "cod_sessao": 1,
+    "filme": 2,
+    "sala":  2         
+},
+{   "cod_sessao": 2,
+    "filme": 3,
+    "sala":  5         
+},
+{   "cod_sessao": 5,
+    "filme": 4,
+    "sala":  3         
+},
+{   "cod_sessao": 4,
+    "filme": 5,
+    "sala":  4         
+}
+])

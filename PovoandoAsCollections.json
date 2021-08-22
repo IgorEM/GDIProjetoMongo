@@ -1,53 +1,198 @@
+//Povoando Pessoas
 db.pessoa.insertMany([
-    {       "cpf": 92706058099,
+    {       "cpf": 14557863669,
             "nome": "Joao da Silva",
             "email": "joaodasilva@gmail.com"
     },
-    {       "cpf": 93733757092,
+    {       "cpf": 14557874569,
             "nome": 'Maria da Silva',
             "email": 'mariadasilva@gmail.com'
     },
-    {       "cpf": 94575223034,
+    {       "cpf": 178498636694,
             "nome": 'Carlos da Silva',
             "email": 'carlosdasilva@gmail.com'
     },
-    {       "cpf": 63734094062,
+    {       "cpf": 87456863669,
             "nome": 'Maicon da Silva',
             "email": 'maicondasilva@gmail.com'
     },
-    {       "cpf": 02153951070,
+    {       "cpf": 12374863669,
             "nome": 'Adriana da Silva',
             "email": 'adrianadasilva@gmail.com'
     },
-    {       "cpf": 41817143069,
+    {       "cpf": 87456867456,
             "nome": 'Jaqueline Medeiros',
             "email": 'jaquelinemedeiros@gmail.com'
     },
-    {       "cpf": 60872549003,
+    {       "cpf": 87748567456,
             "nome": 'Roberta Medeiros',
             "email": 'robertamedeiros@gmail.com'
     },
-    {       "cpf": 33477731018,
+    {       "cpf": 56986867456,
             "nome": 'Robson Medeiros',
+            "email": 'robertamedeiros@gmail.com'
+    },
+    {       "cpf": 47566867456,
+            "nome": 'Marcos Medeiros',
             "email": 'robsonmedeiros@gmail.com'
     },
-    {       "cpf": 48709451005,
+    {       "cpf": 82346867456,
             "nome": 'Virginia Medeiros',
             "email": 'virginiamedeiros@gmail.com'
     },
-    {       "cpf": 24903060063,
+    {       "cpf": 01815521082,
             "nome": 'Eliete Cavalcanti',
             "email": 'elite26@gmail.com'
     },
-    {       "cpf": 75580107056,
+    {       "cpf": 67979876016,
             "nome": 'Joaci Costa',
             "email": 'joacicosta10@gmail.com'
     },
-    {       "cpf": 96222840000,
+    {       "cpf": 48448111001,
             "nome": 'Sabrina Medeiros',
             "email": 'sabrinamedeiros15@gmail.com'
-    },
-    {       "cpf": 49590222056,
-            "nome": 'Igor Mascarenhas',
-            "email": 'igormascarenhas@gmail.com'
-    }])
+    }
+])
+
+//Povoando Cinemas
+db.cinema.insertMany([
+{       "cinema_id": 1,
+        "salas": 9,
+},
+{       "cinema_id": 2,
+        "salas": 4,
+}
+,
+{       "cinema_id": 3,
+        "salas": 7,
+},
+{       "cinema_id": 4,
+        "salas": 5,
+},
+{       "cinema_id": 5,
+        "salas": 3,
+}
+ ])
+
+//Povoando Ingressos
+db.ingresso.insertMany([
+{      "cod_cadeira_pk": "L10",
+        "sessao": 1,
+        "cinema": 1
+},
+{       "cod_cadeira_pk": "L11",
+        "sessao": 1,
+        "cinema": 1
+},
+{       "cod_cadeira_pk": "B04",
+        "sessao": 4,
+        "cinema": 3
+},
+{       "cod_cadeira_pk": "K12",
+    "sessao": 5,
+    "cinema": 4
+},
+{   "cod_cadeira_pk": "C16",
+    "sessao": 3,
+    "cinema": 5
+}
+
+     ])
+
+//povoando filme
+db.filme.insertMany([
+{      "cod_filme": 1,
+            "titulo": 'Star Wars',
+            "genero": 'Ficção Científica',
+            "classificação_indicativa": '12'
+},
+{      "cod_filme": 2,
+        "titulo": 'Esqueceram de Mim',
+        "genero": 'Comédia',
+        "classificação_indicativa": 'L'
+},
+{   "cod_filme": 3,
+    "titulo": 'Coringa',
+    "genero": 'Drama',
+    "classificação_indicativa": '18'
+},
+{   "cod_filme": 4,
+    "titulo": 'Como Treinar o seu Dragão',
+    "genero": 'Animação',
+    "classificação_indicativa": 'L'
+},
+{   "cod_filme": 5,
+    "titulo": 'Palm Springs',
+    "genero": 'Ficção',
+    "classificação_indicativa": '14'
+}
+   
+    
+         ])
+
+//povoando sala
+db.sala.insertMany([
+{   "id": 1,
+    "num_lugares": 300           
+},
+{   "id": 2,
+    "num_lugares": 250         
+},
+{   "id": 3,
+    "num_lugares": 150         
+},
+{   "id": 4,
+    "num_lugares": 200         
+},
+{   "id": 5,
+    "num_lugares": 300         
+}
+   
+       
+        
+             ])
+
+//povoando cliente
+db.cliente.insertMany([
+{   "cpf_p": 14557863669,
+        "pontos_fidelidade": 20          
+},
+{   "cpf_p": 14557874569,
+    "pontos_fidelidade": 10         
+},
+{   "cpf_p": 17849863669,
+    "pontos_fidelidade": 25
+},
+{   "cpf_p": 87456863669,
+    "pontos_fidelidade": 15
+},
+{   "cpf_p": 12374863669,
+    "pontos_fidelidade": 65
+}
+    ])
+
+//povoando funcionario
+db.funcionario.insertMany([
+{   "cpf_p":87456867456,
+        "salario": 3000,
+        "carteira_trabalho": 83684462000100          
+},
+{   "cpf_p":87748567456,
+    "salario": 1045,
+    "carteira_trabalho": 94667164000110          
+},
+{   "cpf_p":56986867456,
+    "salario": 1045,
+    "carteira_trabalho": 26832575000164         
+},
+{   "cpf_p":475668674565,
+    "salario": 1045,
+    "carteira_trabalho": 97959967000137         
+},
+{   "cpf_p":82346867456,
+    "salario": 1045,
+    "carteira_trabalho": 29957878000100         
+},
+
+   
+        ])

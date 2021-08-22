@@ -31,6 +31,13 @@
 // O aggregate usando apenas 1 estagio de pipeline, o Project, projetando apenas a carteira de trabalho e o salario, excluindo o ObjectId
 
 # ------------------------------------------------------------------------
+### 9.SUM
+
+![image](https://user-images.githubusercontent.com/50914198/130372596-c7fe03c8-8b2d-449f-b708-39a05cfd69ac.png)
+### db.funcionario.aggregate([ {$group: {_id: null, salario_total: {$sum: "$salario"} } } ])
+//Somando o salario dos funcionarios usando como criterio de agregaçao o id=null, assim sendo agrupando tudo num único valor
+
+# ------------------------------------------------------------------------
 ### 10.COUNT
 
 ![image](https://user-images.githubusercontent.com/50914198/130370156-c84b9554-33d7-47c3-8060-cda2a471f2e4.png)

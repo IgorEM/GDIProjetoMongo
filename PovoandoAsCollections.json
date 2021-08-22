@@ -1,0 +1,53 @@
+db.pessoa.insertMany([
+    {       "cpf": 92706058099,
+            "nome": "Joao da Silva",
+            "email": "joaodasilva@gmail.com"
+    },
+    {       "cpf": 93733757092,
+            "nome": 'Maria da Silva',
+            "email": 'mariadasilva@gmail.com'
+    },
+    {       "cpf": 94575223034,
+            "nome": 'Carlos da Silva',
+            "email": 'carlosdasilva@gmail.com'
+    },
+    {       "cpf": 63734094062,
+            "nome": 'Maicon da Silva',
+            "email": 'maicondasilva@gmail.com'
+    },
+    {       "cpf": 02153951070,
+            "nome": 'Adriana da Silva',
+            "email": 'adrianadasilva@gmail.com'
+    },
+    {       "cpf": 41817143069,
+            "nome": 'Jaqueline Medeiros',
+            "email": 'jaquelinemedeiros@gmail.com'
+    },
+    {       "cpf": 60872549003,
+            "nome": 'Roberta Medeiros',
+            "email": 'robertamedeiros@gmail.com'
+    },
+    {       "cpf": 33477731018,
+            "nome": 'Robson Medeiros',
+            "email": 'robsonmedeiros@gmail.com'
+    },
+    {       "cpf": 48709451005,
+            "nome": 'Virginia Medeiros',
+            "email": 'virginiamedeiros@gmail.com'
+    },
+    {       "cpf": 24903060063,
+            "nome": 'Eliete Cavalcanti',
+            "email": 'elite26@gmail.com'
+    },
+    {       "cpf": 75580107056,
+            "nome": 'Joaci Costa',
+            "email": 'joacicosta10@gmail.com'
+    },
+    {       "cpf": 96222840000,
+            "nome": 'Sabrina Medeiros',
+            "email": 'sabrinamedeiros15@gmail.com'
+    },
+    {       "cpf": 49590222056,
+            "nome": 'Igor Mascarenhas',
+            "email": 'igormascarenhas@gmail.com'
+    }])

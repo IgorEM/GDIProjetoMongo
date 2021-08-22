@@ -15,7 +15,10 @@
 //para ver todas as collections do banco de dados que está sendo usado
 #### db.pessoa.find().pretty()
 //O Find mostra os documentos que há dentro de uma certa collection, nesse caso na collection pessoa. O pretty imprime o resultado formmatado
-
+### 4. AGGREGATE
+![image](https://user-images.githubusercontent.com/17653999/130370555-04eb0dfc-e2c0-41fa-9288-698ab1fb4fb0.png)
+### db.alocar.aggegate()
+// O Aggregate processa as operações e retorna os dados computados.
 ### 10.COUNT
 
 ![image](https://user-images.githubusercontent.com/50914198/130370156-c84b9554-33d7-47c3-8060-cda2a471f2e4.png)

@@ -196,3 +196,15 @@ db.funcionario.insertMany([
 
    
         ])
+//povoando sala3d
+db.sala3d.insertMany([
+    {   "id_sala": 5,
+        "oculos": 300           
+    }
+])
+//povoando sala_imax
+db.sala_imax.insertMany([
+    {   "id_sala": 1,
+        "tipo_cadeira":  'Aquela que treme'          
+    }
+])

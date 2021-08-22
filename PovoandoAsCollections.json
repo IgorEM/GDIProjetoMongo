@@ -372,3 +372,77 @@ db.endereco.insertMany([
     
     
         ])
+//povoando Alocar
+db.alocar.insertMany([
+    {   "sala": 1,
+                "entrar_em_cartaz_filme": 1,
+                "entrar_em_cartaz_sessao": 1,
+                "entrar_em_cartaz_cinema": 2,
+            },
+            {   "sala": 2,
+                "entrar_em_cartaz_filme": 1,
+                "entrar_em_cartaz_sessao": 2,
+                "entrar_em_cartaz_cinema": 1,
+            },
+            {   "sala": 3,
+                "entrar_em_cartaz_filme": 1,
+                "entrar_em_cartaz_sessao": 2,
+                "entrar_em_cartaz_cinema": 2,
+            },
+            {   "sala": 4,
+                "entrar_em_cartaz_filme": 2,
+                "entrar_em_cartaz_sessao": 3,
+                "entrar_em_cartaz_cinema": 5,
+            },
+            {   "sala": 5,
+                "entrar_em_cartaz_filme": 4,
+                "entrar_em_cartaz_sessao": 5,
+                "entrar_em_cartaz_cinema": 4,
+            }
+    ])
+    //povoamento telefone 
+    db.telefone.insertMany([
+        {   
+            "cpf_pessoa" : '14557863669',
+            "telefone" :  '34274299',
+        },
+        {
+            "cpf_pessoa" : '14557863669',
+            "telefone" :  '88997734',
+        },
+        {
+            "cpf_pessoa" : '47566867456',
+            "telefone" :  '76655439',
+        },
+        {
+            "cpf_pessoa" : '14557863669',
+            "telefone" :  '99766658',
+        },
+        {
+            "cpf_pessoa" : '56986867456',
+            "telefone" :  '97568990',
+        }
+            ])
+    //povoamento supervisor 
+    db.supervisiona.insertMany([
+        {
+            "supervisor":  87456867456,
+            "supervionado": 87456867456,
+        },
+        {
+            "supervisor": 87456867456,
+            "supervionado": 111111111111,
+        },
+        {
+            "supervisor": 87456867456,
+            "supervionado": 56986867456,
+        },
+        {
+            "supervisor": 87456867456,
+            "supervionado": 32222222222,
+        },
+        {
+            "supervisor": 87456867456,
+            "supervionado": 47566867456,
+        }
+            ])

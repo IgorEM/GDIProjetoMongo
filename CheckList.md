@@ -22,7 +22,12 @@
 ![image](https://user-images.githubusercontent.com/17653999/130370555-04eb0dfc-e2c0-41fa-9288-698ab1fb4fb0.png)
 ### db.alocar.aggegate()
 // O Aggregate processa as operações e retorna os dados computados.
+# ------------------------------------------------------------------------
 
+### 5.MATCH
+![image](https://user-images.githubusercontent.com/50914198/130373317-4c80ec13-9b8b-4313-b352-07931e65bf6d.png)
+### db.sala.aggregate([ { $match: {"tipo_sala.nome_sala":"3D"}}, ]).pretty()
+// Dá um Match no tipo_sala onde o nome_sala é igual a "3D"
 # ------------------------------------------------------------------------
 ### 6. PROJECT
 

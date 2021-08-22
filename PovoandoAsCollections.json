@@ -255,3 +255,15 @@ db.pertence.insertMany([
     "sessao": 3
 }
     ])
+//povoando supervisiona
+db.supervisiona.insertMany([
+{   "supervisor":87456867456 ,
+    "supervisionado": 87748567456
+},
+{   "supervisor":87456867456 ,
+    "supervisionado": 56986867456
+},
+{   "supervisor":87456867456 ,
+    "supervisionado": 47566867456
+}
+        ])

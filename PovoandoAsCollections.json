@@ -6,11 +6,13 @@ db.pessoa.insertMany([
     },
     {       "cpf": 14557874569,
             "nome": 'Maria da Silva',
-            "email": 'mariadasilva@gmail.com'
+            "email": 'mariadasilva@gmail.com',
+            "idade": 18
     },
     {       "cpf": 178498636694,
             "nome": 'Carlos da Silva',
             "email": 'carlosdasilva@gmail.com'
+       
     },
     {       "cpf": 87456863669,
             "nome": 'Maicon da Silva',
@@ -18,7 +20,8 @@ db.pessoa.insertMany([
     },
     {       "cpf": 12374863669,
             "nome": 'Adriana da Silva',
-            "email": 'adrianadasilva@gmail.com'
+            "email": 'adrianadasilva@gmail.com',
+            "idade": 25
     },
     {       "cpf": 87456867456,
             "nome": 'Jaqueline Medeiros',
@@ -34,7 +37,8 @@ db.pessoa.insertMany([
     },
     {       "cpf": 47566867456,
             "nome": 'Marcos Medeiros',
-            "email": 'robsonmedeiros@gmail.com'
+            "email": 'robsonmedeiros@gmail.com',
+            "idade": 38
     },
     {       "cpf": 82346867456,
             "nome": 'Virginia Medeiros',

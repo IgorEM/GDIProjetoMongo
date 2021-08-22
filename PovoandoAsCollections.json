@@ -236,3 +236,22 @@ db.sessao.insertMany([
     "sala":  4         
 }
 ])
+
+//povoando pertence
+db.pertence.insertMany([
+{   "ingresso":'L10' ,
+    "sessao": 1 
+},
+{   "ingresso":'L11' ,
+    "sessao": 1 
+},
+{   "ingresso":'B04' ,
+    "sessao": 4
+},
+{   "ingresso":'K12' ,
+    "sessao": 5
+},
+{   "ingresso":'C16' ,
+    "sessao": 3
+}
+    ])

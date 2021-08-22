@@ -326,3 +326,49 @@ db.comprar_ingresso.insertMany([
 }
 
     ])
+
+//povoando endereco
+db.endereco.insertMany([
+{   "id": 1,
+    "cinema_id": 1,
+    "pais": 'Brasil',
+    "estado": 'Pernambuco',
+    "cidade": 'Recife',
+    "bairro": 'Pina',
+    "rua": 'Av. República do Líbano',
+    "numero": 251,
+    "cep": '51110-160'
+},
+{   "id": 2,
+    "cinema_id": 2,
+    "pais": 'Brasil',
+    "estado": 'Paraíba',
+    "cidade": 'João Pessoa',
+    "bairro": 'Manaíra',
+    "rua": 'Av. Gov. Flávio Ribeiro Coutinho',
+    "numero": 115,
+    "cep": '58037-972'
+},
+{   "id": 3,
+    "cinema_id": 3,
+    "pais": 'Brasil',
+    "estado": 'Ceará',
+    "cidade": 'Fortaleza',
+    "bairro": 'Papicu',
+    "rua": 'R. Des. Lauro Nogueira',
+    "numero": 1355,
+    "cep": '60175-055'
+},
+{   "id": 4,
+    "cinema_id": 4,
+    "pais": 'Brasil',
+    "estado": 'Pernambuco',
+    "cidade": 'Olinda',
+    "bairro": 'Casa Caiada',
+    "rua": 'R. Eduardo de Morais',
+    "numero": 100,
+    "cep": '65076-907'
+}
+    
+    
+        ])

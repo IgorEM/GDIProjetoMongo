@@ -43,6 +43,16 @@
 // O GTE (ou greater or equal, >=) retorna os registros onde o valor é maior ou igual ao parâmetro passado. No exemplo, procuramos por pessoas com 20 ou mais anos.
 
 # ------------------------------------------------------------------------
+### 8.GROUP
+
+![image](https://user-images.githubusercontent.com/17653999/130488524-14ba0d75-d4c3-4ba9-adec-84554c4e81fc.png)
+### db.pessoa.aggregate ( { $group: { _id: "$nome",MaxIdade: { $max: "$idade" } } } ).pretty()
+![image](https://user-images.githubusercontent.com/17653999/130488913-e62b0596-2824-429c-8004-f38d1d5c598c.png)
+### db.pessoa.aggregate ( { $group: { _id: "$nome",cpf: { $max: "$cpf" } } } )
+//Agrupa por meio da agregação cada _id distinto, gerando um um documento e sua saida contém o grupo exclusivo para cada valor.
+
+
+# ------------------------------------------------------------------------
 ### 9.SUM
 
 ![image](https://user-images.githubusercontent.com/50914198/130372596-c7fe03c8-8b2d-449f-b708-39a05cfd69ac.png)

@@ -79,3 +79,11 @@
 #### db.entrar_em_cartaz.update( {nome_filme: "Palm Springs"},{$set: {dia: "23/08/2021" }} )
 //Usando UPDATE para alterar o dia de estreia do filme "Palm Springs", para o dia 23/08/2021, repare na imagem que antes o dia de estreia era "02/10/2021" e o objectId continua o mesmo
 
+### 29.LOOKUP
+
+![image](https://user-images.githubusercontent.com/50914198/130378725-424af0dd-3a15-41d2-96fe-08cb972dc82f.png)
+#### db.filme.aggregate([{$lookup:from: "entrar_em_cartaz",localField: "titulo",foreignField: "nome_filme",as: "nome_titulo"}}])
+/*A seguinte operação de agregação na coleção filme une os documentos 
+de filme com os documentos da coleção entrar_em_cartaz usando os campos nome_filme da
+coleção entrar_em_cartaz e o campo titulo da coleção filme.*/
+

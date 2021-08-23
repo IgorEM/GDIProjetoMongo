@@ -94,8 +94,16 @@
 
 #### db.pessoa.find({idade: {$exists:true}}).pretty()
 //Imprime as pessoas que tem o atributo idade
+# ------------------------------------------------------------------------
+### 14.SORT
+![image](https://user-images.githubusercontent.com/17653999/130492218-6dbce2d7-0e71-4890-ac34-edee11518a35.png)
+### db.pessoa.aggregate( {$sort: {name: 1 }} )
+//O Sort ordena os elementos de uma matriz durante uma operação.
 
-
+### 15.LIMIT
+![image](https://user-images.githubusercontent.com/17653999/130493468-ea1de30a-a6e7-47d2-a666-a033aeacc4e9.png)
+### db.funcionario.aggregate({$limit : 3 })
+//Limita o número de documentos passado
 # ------------------------------------------------------------------------
 ### 19.PRETTY
 

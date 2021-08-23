@@ -127,4 +127,9 @@
 /*A seguinte operação de agregação na coleção filme une os documentos 
 de filme com os documentos da coleção entrar_em_cartaz usando os campos nome_filme da
 coleção entrar_em_cartaz e o campo titulo da coleção filme.*/
+# ------------------------------------------------------------------------
+### 29.FindOne
+![image](https://user-images.githubusercontent.com/17653999/130499724-5859f98d-11c4-4bf7-8483-5e06b7baf807.png)
+### db.pessoa.findOne({"_id": ObjectId("6122ae04b95e8562ff73c217")})
+//Retorna um único documento de uma coleção ou visualização . Se existir mais de um documentos satisfazendo a consulta, este método retornará o primeiro documento de acordo com a ordem de classificação ou ordem natural da consulta .
 

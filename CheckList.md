@@ -35,6 +35,13 @@
 ### db.funcionario.aggregate([     {$project: {carteira_trabalho: 1, salario: 1, _id: 0}}])
 // O aggregate usando apenas 1 estagio de pipeline, o Project, projetando apenas a carteira de trabalho e o salario, excluindo o ObjectId
 
+#-------------------------------------------------------------------------
+### 7. GTE
+
+![image](https://user-images.githubusercontent.com/32939174/130409650-26ec2ba7-ecfa-4ab9-9d12-b2736d8c92fe.png)
+### db.pessoa.find( { idade: { $gte: 20 } } )
+// O GTE (ou greater or equal, >=) retorna os registros onde o valor é maior ou igual ao parâmetro passado. No exemplo, procuramos por pessoas com 20 ou mais anos.
+
 # ------------------------------------------------------------------------
 ### 9.SUM
 
@@ -54,6 +61,22 @@
 
 #### db.filme.find({$or: [{classificação_indicativa:"L"}, {classificação_indicativa:"12"}]} ).count()
 //mostra a quantidade de filmes em que a classificação indicativa é "L" ou "12" (repare no operador *$or ) 
+
+#-------------------------------------------------------------------------
+### 11.MAX
+
+![image](https://user-images.githubusercontent.com/32939174/130410986-dbf0d272-4100-4b8c-861e-e76594ae6e50.png)
+### db.funcionario.aggregate ( { $group: { _id: "$funcionario",MaxSalario: { $max: "$salario" } } } )
+// Max retorna o registro com o valor máximo da variável solicitada. No exemplo, foi buscado o funcionario com o maior salário.
+
+#-------------------------------------------------------------------------
+### 12.AVG
+
+![image](https://user-images.githubusercontent.com/32939174/130411723-eb5fa7f4-5d18-4a57-825b-07d886c1b2cf.png)
+### > db.sala.aggregate ( { $group: { _id: "$sala", AvgLugares: { $avg: "$num_lugares" } } } )
+// AVG retorna a média entre os valores buscados. No exemplo, solicitamos a média de lugares nas salas de cinema.
+
+
 # ------------------------------------------------------------------------
 ### 13.EXITS
 

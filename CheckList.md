@@ -18,6 +18,19 @@
 #### db.pessoa.find().pretty()
 //O Find mostra os documentos que há dentro de uma certa collection, nesse caso na collection pessoa. O pretty imprime o resultado formmatado
 # ------------------------------------------------------------------------
+### 3.SIZE
+
+![image](https://user-images.githubusercontent.com/50914198/130532976-1626d6ac-7525-4abb-9502-8af00fcf6dfd.png)
+
+### db.getCollection('sala').find( {tipo_sala: {$size: 2}})
+
+![image](https://user-images.githubusercontent.com/50914198/130533439-c8319ed1-a7ed-41b1-9baf-4351e96ade69.png)
+
+
+![image](https://user-images.githubusercontent.com/50914198/130533688-4676dee2-cdb2-4564-97ef-f41f565cbbdc.png)
+
+//Perceba que a consulta só retornou um resultado em que a field= "tipo_sala" tem 2 elementos em seu vetor
+# ------------------------------------------------------------------------
 ### 4. AGGREGATE
 ![image](https://user-images.githubusercontent.com/17653999/130370555-04eb0dfc-e2c0-41fa-9288-698ab1fb4fb0.png)
 ### db.alocar.aggegate()
@@ -132,4 +145,7 @@ coleção entrar_em_cartaz e o campo titulo da coleção filme.*/
 ![image](https://user-images.githubusercontent.com/17653999/130499724-5859f98d-11c4-4bf7-8483-5e06b7baf807.png)
 ### db.pessoa.findOne({"_id": ObjectId("6122ae04b95e8562ff73c217")})
 //Retorna um único documento de uma coleção ou visualização . Se existir mais de um documentos satisfazendo a consulta, este método retornará o primeiro documento de acordo com a ordem de classificação ou ordem natural da consulta .
+
+
+
 

@@ -71,3 +71,11 @@
 #### db.endereco.find({estado:"Pernambuco"} ).pretty()
 //printa de forma formatada (pretty,bonita) os documentos da collection endereco em que o estado seja igua a "Pernambuco"
 
+# ------------------------------------------------------------------------
+### 25.UPDATE
+
+![image](https://user-images.githubusercontent.com/50914198/130374311-a229e5cb-5251-4452-b423-a2f13983dec7.png)
+
+#### db.entrar_em_cartaz.update( {nome_filme: "Palm Springs"},{$set: {dia: "23/08/2021" }} )
+//Usando UPDATE para alterar o dia de estreia do filme "Palm Springs", para o dia 23/08/2021, repare na imagem que antes o dia de estreia era "02/10/2021" e o objectId continua o mesmo
+

@@ -197,6 +197,9 @@ coleção entrar_em_cartaz e o campo titulo da coleção filme.*/
 ### db.pessoa.findOne({"_id": ObjectId("6122ae04b95e8562ff73c217")})
 //Retorna um único documento de uma coleção ou visualização . Se existir mais de um documentos satisfazendo a consulta, este método retornará o primeiro documento de acordo com a ordem de classificação ou ordem natural da consulta .
 
+# ------------------------------------------------------------------------
+### 31.AddToSet
 
-
-
+![image](https://user-images.githubusercontent.com/32939174/130538282-b3708fb1-f57b-409d-89f4-7b6ccae010e9.png)
+### db.filme.aggregate ( [ { $group: { _id: "$classificação_indicativa", filmes: { $addToSet: "$titulo"}, }, } ] )
+// Add to set adiciona um valor a um array, a menos que o valor ja esteja no mesmo. No exemplo, classificamos os filmes por classificação indicativa e agrupamos cada classificação em um array usando o add to set.

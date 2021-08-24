@@ -130,6 +130,28 @@
 //printa de forma formatada (pretty,bonita) os documentos da collection endereco em que o estado seja igua a "Pernambuco"
 
 # ------------------------------------------------------------------------
+### 20.SET
+
+![image](https://user-images.githubusercontent.com/50914198/130536831-9bea7898-ec18-411b-b57a-217bfe3432dd.png)
+
+*db.ingresso.update(
+   { _id: ObjectId("61228b1c2bddf001b2a6a6cd") },
+   { $set:
+      {
+        cod_cadeira_pk: "A23",
+        sessao: 2.0,
+        cinema: 2.0
+      }
+   }
+)*
+
+// Mudando/Setando as fields cod_cadeira_pk,sessao e cinema
+
+![image](https://user-images.githubusercontent.com/50914198/130537771-7ea0870f-cfdb-4fb7-aa8a-d65f82fa2306.png)
+
+
+# ------------------------------------------------------------------------
+
 ### 25.UPDATE
 
 ![image](https://user-images.githubusercontent.com/50914198/130374311-a229e5cb-5251-4452-b423-a2f13983dec7.png)

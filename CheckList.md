@@ -119,9 +119,12 @@
 //Limita o número de documentos passado
 # ------------------------------------------------------------------------
 ### 16.WHERE
+
 ![image](https://user-images.githubusercontent.com/17653999/130535807-26cf6572-ebaa-493f-b0de-26336acad034.png)
+
 ### db.getCollection('funcionario').find({$where: "this.salario == 3000"})
 // Operador que passa uma função de string contendo JavaScript ou uma função JavaScript completa para o sistema de consulta.
+
 ### 19.PRETTY
 
 ![image](https://user-images.githubusercontent.com/50914198/130370405-be4e10b6-3694-42db-b153-c77bb0862029.png)
@@ -130,7 +133,15 @@
 //printa de forma formatada (pretty,bonita) os documentos da collection endereco em que o estado seja igua a "Pernambuco"
 
 # ------------------------------------------------------------------------
-### 20.SET
+### 20.ALL
+
+![image](https://user-images.githubusercontent.com/32939174/130543350-1def0e48-eb74-4551-9852-018ccfc493be.png)
+
+### db.sala.find( { "num_lugares": { $all: [ 250 ] } } )
+// O all seleciona os registros em que o campo solicitado é um array que contém todos os valores do all. No exemplo procuramos as salas em que o numero de lugares é um array contendo apenas 250.
+
+# ------------------------------------------------------------------------
+### 21.SET
 
 ![image](https://user-images.githubusercontent.com/50914198/130536831-9bea7898-ec18-411b-b57a-217bfe3432dd.png)
 

@@ -211,6 +211,7 @@ coleção entrar_em_cartaz e o campo titulo da coleção filme.*/
 ### db.pessoa.findOne({"_id": ObjectId("6122ae04b95e8562ff73c217")})
 //Retorna um único documento de uma coleção ou visualização . Se existir mais de um documentos satisfazendo a consulta, este método retornará o primeiro documento de acordo com a ordem de classificação ou ordem natural da consulta .
 
+
 # ------------------------------------------------------------------------
 ### 31.AddToSet
 

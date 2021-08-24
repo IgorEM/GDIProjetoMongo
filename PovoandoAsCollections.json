@@ -235,8 +235,11 @@ db.funcionario.insertMany([
         ])
 //povoando sala3d
 db.sala3d.insertMany([
-    {   "id_sala": 5,
-        "oculos": 300           
+    {   "id_sala": 2,
+        "oculos": 'vq164r'          
+    },
+    {   "id_sala": 3,
+        "oculos": 'vq163r'           
     }
 ])
 //povoando sala_imax

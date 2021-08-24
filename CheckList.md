@@ -162,7 +162,10 @@
 
 
 # ------------------------------------------------------------------------
-
+### 25.FILTER
+![image](https://user-images.githubusercontent.com/17653999/130543677-6115d4e2-cc0c-44cf-9cd1-e8ff51f030ad.png)
+### db.sala.aggregate([{$project : {tipo_sala: {$filter: {input: "$tipo_sala", as: "tipo_sala", cond: {$eq : ["$$tipo_sala.nome_sala", "3D"]}}}}}])
+//Seleciona um subconjunto de uma matriz para retornar com base na condição especificada
 ### 25.UPDATE
 
 ![image](https://user-images.githubusercontent.com/50914198/130374311-a229e5cb-5251-4452-b423-a2f13983dec7.png)

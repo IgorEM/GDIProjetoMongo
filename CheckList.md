@@ -138,6 +138,14 @@
 //Usando UPDATE para alterar o dia de estreia do filme "Palm Springs", para o dia 23/08/2021, repare na imagem que antes o dia de estreia era "02/10/2021" e o objectId continua o mesmo
 
 # ------------------------------------------------------------------------
+### 26.SAVE
+
+![image](https://user-images.githubusercontent.com/32939174/130537156-3e9f997d-aeb9-43eb-b8fd-79d485bb975a.png)
+
+#### db.sala.save( { "id": "7", "num_lugares": 275, "tipo_sala": [ { "nome_sala": 'Normal', "tipo_cadeira": 'Comum' } ] } )
+// O comando save é equivalente ao comando de InsertOne, ou seja, ele insere um registro em uma coleção.
+
+# ------------------------------------------------------------------------
 ### 27.RENAME COLLECTION
 
 ![image](https://user-images.githubusercontent.com/32939174/130536234-b44fdb5a-7bc0-4bd2-ac3d-b9af83e1942b.png)

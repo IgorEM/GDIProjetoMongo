@@ -118,6 +118,10 @@
 ### db.funcionario.aggregate({$limit : 3 })
 //Limita o número de documentos passado
 # ------------------------------------------------------------------------
+### 16.WHERE
+![image](https://user-images.githubusercontent.com/17653999/130535807-26cf6572-ebaa-493f-b0de-26336acad034.png)
+### db.getCollection('funcionario').find({$where: "this.salario == 3000"})
+// Operador que passa uma função de string contendo JavaScript ou uma função JavaScript completa para o sistema de consulta.
 ### 19.PRETTY
 
 ![image](https://user-images.githubusercontent.com/50914198/130370405-be4e10b6-3694-42db-b153-c77bb0862029.png)

@@ -136,43 +136,54 @@ db.filme.insertMany([
 
 //povoando sala
 db.sala.insertMany([
-{   "id": 1,
-    "num_lugares": 300, 
-    "tipo_sala":[{ 
-        "nome_sala": "Imax", 
-        "tipo_cadeira":  'Aquela que treme' 
-    }]          
-},
-{   "id": 2,
-    "num_lugares": 250, 
-    "tipo_sala":[{ 
-        "nome_sala": '3D', 
-        "tipo_cadeira":  'Luxo' 
-    }]                      
-},
-{   "id": 3,
-    "num_lugares": 150, 
-    "tipo_sala":[{ 
-        "nome_sala": '3D', 
-        "tipo_cadeira":  'Luxo' 
-    }]             
-},
-{   "id": 4,
-    "num_lugares": 200,
-    "tipo_sala":[{ 
-        "nome_sala": 'Normal', 
-        "tipo_cadeira":  'Comum' 
-    }]
+    {   "id": 1,
+        "num_lugares": 300, 
+        "tipo_sala":[{ 
+            "nome_sala": "Imax", 
+            "tipo_cadeira":  'Aquela que treme' 
+        }]          
+    },
+    {   "id": 2,
+        "num_lugares": 250, 
+        "tipo_sala":[{ 
+            "nome_sala": '3D', 
+            "tipo_cadeira":  'Luxo' 
+        }]                      
+    },
+    {   "id": 3,
+        "num_lugares": 150, 
+        "tipo_sala":[{ 
+            "nome_sala": '3D', 
+            "tipo_cadeira":  'Luxo' 
+        }]             
+    },
+    {   "id": 4,
+        "num_lugares": 200,
+        "tipo_sala":[{ 
+            "nome_sala": 'Normal', 
+            "tipo_cadeira":  'Comum' 
+        }]
+    
+    },
+    {   "id": 5,
+        "num_lugares": 300,
+        "tipo_sala":[{ 
+            "nome_sala": 'Normal', 
+            "tipo_cadeira":  'Comum' 
+        }]         
+    },
+    {   "id": 6,
+        "num_lugares": 600,
+        "tipo_sala":[{
+            "nome_sala": 'Imax Luxo',
+            "tipo_cadeira":  'Poltrona de luxo que treme',
+            
+        },
+            {"bebida": 'Champgne',
+            "comida": 'Caviar}]
+    }
 
-},
-{   "id": 5,
-    "num_lugares": 300,
-    "tipo_sala":[{ 
-        "nome_sala": 'Normal', 
-        "tipo_cadeira":  'Comum' 
-    }]         
-}
-])
+    ])
    
        
         

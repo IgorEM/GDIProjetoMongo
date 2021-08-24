@@ -137,6 +137,23 @@
 #### db.entrar_em_cartaz.update( {nome_filme: "Palm Springs"},{$set: {dia: "23/08/2021" }} )
 //Usando UPDATE para alterar o dia de estreia do filme "Palm Springs", para o dia 23/08/2021, repare na imagem que antes o dia de estreia era "02/10/2021" e o objectId continua o mesmo
 
+# ------------------------------------------------------------------------
+### 27.RENAME COLLECTION
+
+![image](https://user-images.githubusercontent.com/32939174/130536234-b44fdb5a-7bc0-4bd2-ac3d-b9af83e1942b.png)
+
+#### db.pessoa.renameCollection("pessoas")
+// Renomeia uma coleção. No exemplo, renomeamos "pessoa" para "pessoas", ja que é uma boa prática colocar o nome das coleções no plural.
+
+# ------------------------------------------------------------------------
+### 28.COND
+
+![image](https://user-images.githubusercontent.com/32939174/130536380-2f48399f-1a70-426f-8339-b321705523d1.png)
+
+#### db.
+// Funciona como um condicional. Retorna uma das duas expressões, dependendo do if. No exemplo, pedimos que retorne o preço_ingresso, que é 30 reais para salas com 250 ou mais lugares, e 20 reais para salas com menos de 250 lugares.
+
+
 ### 29.LOOKUP
 
 ![image](https://user-images.githubusercontent.com/50914198/130378725-424af0dd-3a15-41d2-96fe-08cb972dc82f.png)

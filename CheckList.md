@@ -109,7 +109,7 @@
 //Imprime as pessoas que tem o atributo idade
 # ------------------------------------------------------------------------
 ### 14.SORT
-![image](https://user-images.githubusercontent.com/17653999/130492218-6dbce2d7-0e71-4890-ac34-edee11518a35.png)
+![image](https://user-images.githubusercontent.com/17653999/130539299-0a13eda6-f9e6-411f-8d0b-9af30d06ed8d.png)
 ### db.pessoa.aggregate( {$sort: {name: 1 }} )
 //O Sort ordena os elementos de uma matriz durante uma operação.
 
